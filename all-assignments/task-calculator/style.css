@@ -1,0 +1,31 @@
+body > *{
+	width: 500px;
+}
+
+body{
+	background-color: #fd7272;
+	flex-wrap: wrap;
+	font-family: 'Orbitron', sans-serif;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+
+}
+
+h1{
+	color: white;
+	font-size: 280%;
+	
+}
+
+.button{
+	display: flex;
+}
+
+#numbers{
+	height: 200px;
+	overflow-y: scroll; 
+}
+
